@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099E39B11B9CED5800AFA94B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E39B01B9CED5800AFA94B /* AppDelegate.m */; };
+		099E39B31B9CED5800AFA94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E39B21B9CED5800AFA94B /* main.m */; };
+		099E39B61B9CED5800AFA94B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E39B51B9CED5800AFA94B /* Document.m */; };
+		099E39B91B9CED5800AFA94B /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099E39B71B9CED5800AFA94B /* Document.xib */; };
+		099E39BC1B9CED5800AFA94B /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 099E39BA1B9CED5800AFA94B /* Document.xcdatamodeld */; };
+		099E39BE1B9CED5800AFA94B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099E39BD1B9CED5800AFA94B /* Images.xcassets */; };
+		099E39C11B9CED5800AFA94B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099E39BF1B9CED5800AFA94B /* MainMenu.xib */; };
+		099E39CD1B9CED5800AFA94B /* djvu_readerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E39CC1B9CED5800AFA94B /* djvu_readerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099E39C71B9CED5800AFA94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 099E39A21B9CED5800AFA94B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099E39A91B9CED5800AFA94B;
+			remoteInfo = "djvu-reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099E39AA1B9CED5800AFA94B /* djvu-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "djvu-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		099E39AE1B9CED5800AFA94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099E39AF1B9CED5800AFA94B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		099E39B01B9CED5800AFA94B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		099E39B21B9CED5800AFA94B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		099E39B41B9CED5800AFA94B /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		099E39B51B9CED5800AFA94B /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		099E39B81B9CED5800AFA94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		099E39BB1B9CED5800AFA94B /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		099E39BD1B9CED5800AFA94B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		099E39C01B9CED5800AFA94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		099E39C61B9CED5800AFA94B /* djvu-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "djvu-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		099E39CB1B9CED5800AFA94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099E39CC1B9CED5800AFA94B /* djvu_readerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = djvu_readerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099E39A71B9CED5800AFA94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099E39C31B9CED5800AFA94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099E39A11B9CED5800AFA94B = {
+			isa = PBXGroup;
+			children = (
+				099E39AC1B9CED5800AFA94B /* djvu-reader */,
+				099E39C91B9CED5800AFA94B /* djvu-readerTests */,
+				099E39AB1B9CED5800AFA94B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		099E39AB1B9CED5800AFA94B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				099E39AA1B9CED5800AFA94B /* djvu-reader.app */,
+				099E39C61B9CED5800AFA94B /* djvu-readerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		099E39AC1B9CED5800AFA94B /* djvu-reader */ = {
+			isa = PBXGroup;
+			children = (
+				099E39AF1B9CED5800AFA94B /* AppDelegate.h */,
+				099E39B01B9CED5800AFA94B /* AppDelegate.m */,
+				099E39B41B9CED5800AFA94B /* Document.h */,
+				099E39B51B9CED5800AFA94B /* Document.m */,
+				099E39B71B9CED5800AFA94B /* Document.xib */,
+				099E39BD1B9CED5800AFA94B /* Images.xcassets */,
+				099E39BF1B9CED5800AFA94B /* MainMenu.xib */,
+				099E39BA1B9CED5800AFA94B /* Document.xcdatamodeld */,
+				099E39AD1B9CED5800AFA94B /* Supporting Files */,
+			);
+			path = "djvu-reader";
+			sourceTree = "<group>";
+		};
+		099E39AD1B9CED5800AFA94B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				099E39AE1B9CED5800AFA94B /* Info.plist */,
+				099E39B21B9CED5800AFA94B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099E39C91B9CED5800AFA94B /* djvu-readerTests */ = {
+			isa = PBXGroup;
+			children = (
+				099E39CC1B9CED5800AFA94B /* djvu_readerTests.m */,
+				099E39CA1B9CED5800AFA94B /* Supporting Files */,
+			);
+			path = "djvu-readerTests";
+			sourceTree = "<group>";
+		};
+		099E39CA1B9CED5800AFA94B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				099E39CB1B9CED5800AFA94B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099E39A91B9CED5800AFA94B /* djvu-reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099E39D01B9CED5800AFA94B /* Build configuration list for PBXNativeTarget "djvu-reader" */;
+			buildPhases = (
+				099E39A61B9CED5800AFA94B /* Sources */,
+				099E39A71B9CED5800AFA94B /* Frameworks */,
+				099E39A81B9CED5800AFA94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "djvu-reader";
+			productName = "djvu-reader";
+			productReference = 099E39AA1B9CED5800AFA94B /* djvu-reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		099E39C51B9CED5800AFA94B /* djvu-readerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099E39D31B9CED5800AFA94B /* Build configuration list for PBXNativeTarget "djvu-readerTests" */;
+			buildPhases = (
+				099E39C21B9CED5800AFA94B /* Sources */,
+				099E39C31B9CED5800AFA94B /* Frameworks */,
+				099E39C41B9CED5800AFA94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099E39C81B9CED5800AFA94B /* PBXTargetDependency */,
+			);
+			name = "djvu-readerTests";
+			productName = "djvu-readerTests";
+			productReference = 099E39C61B9CED5800AFA94B /* djvu-readerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099E39A21B9CED5800AFA94B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tianyang Li";
+				TargetAttributes = {
+					099E39A91B9CED5800AFA94B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					099E39C51B9CED5800AFA94B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 099E39A91B9CED5800AFA94B;
+					};
+				};
+			};
+			buildConfigurationList = 099E39A51B9CED5800AFA94B /* Build configuration list for PBXProject "djvu-reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 099E39A11B9CED5800AFA94B;
+			productRefGroup = 099E39AB1B9CED5800AFA94B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099E39A91B9CED5800AFA94B /* djvu-reader */,
+				099E39C51B9CED5800AFA94B /* djvu-readerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099E39A81B9CED5800AFA94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099E39B91B9CED5800AFA94B /* Document.xib in Resources */,
+				099E39BE1B9CED5800AFA94B /* Images.xcassets in Resources */,
+				099E39C11B9CED5800AFA94B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099E39C41B9CED5800AFA94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099E39A61B9CED5800AFA94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099E39BC1B9CED5800AFA94B /* Document.xcdatamodeld in Sources */,
+				099E39B61B9CED5800AFA94B /* Document.m in Sources */,
+				099E39B31B9CED5800AFA94B /* main.m in Sources */,
+				099E39B11B9CED5800AFA94B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099E39C21B9CED5800AFA94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099E39CD1B9CED5800AFA94B /* djvu_readerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		099E39C81B9CED5800AFA94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099E39A91B9CED5800AFA94B /* djvu-reader */;
+			targetProxy = 099E39C71B9CED5800AFA94B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		099E39B71B9CED5800AFA94B /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099E39B81B9CED5800AFA94B /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		099E39BF1B9CED5800AFA94B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099E39C01B9CED5800AFA94B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099E39CE1B9CED5800AFA94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		099E39CF1B9CED5800AFA94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		099E39D11B9CED5800AFA94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "djvu-reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		099E39D21B9CED5800AFA94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "djvu-reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		099E39D41B9CED5800AFA94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "djvu-readerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/djvu-reader.app/Contents/MacOS/djvu-reader";
+			};
+			name = Debug;
+		};
+		099E39D51B9CED5800AFA94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "djvu-readerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/djvu-reader.app/Contents/MacOS/djvu-reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099E39A51B9CED5800AFA94B /* Build configuration list for PBXProject "djvu-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099E39CE1B9CED5800AFA94B /* Debug */,
+				099E39CF1B9CED5800AFA94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099E39D01B9CED5800AFA94B /* Build configuration list for PBXNativeTarget "djvu-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099E39D11B9CED5800AFA94B /* Debug */,
+				099E39D21B9CED5800AFA94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		099E39D31B9CED5800AFA94B /* Build configuration list for PBXNativeTarget "djvu-readerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099E39D41B9CED5800AFA94B /* Debug */,
+				099E39D51B9CED5800AFA94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		099E39BA1B9CED5800AFA94B /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				099E39BB1B9CED5800AFA94B /* Document.xcdatamodel */,
+			);
+			currentVersion = 099E39BB1B9CED5800AFA94B /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 099E39A21B9CED5800AFA94B /* Project object */;
+}
